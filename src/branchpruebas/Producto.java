@@ -12,13 +12,11 @@ public class Producto {
     private String proveedor;
     private int cantidad;
 
-    private final static int NUMERO = 1;
-
     public Producto() {
     }
 
     public int getIdProducto() {
-        return idProducto * NUMERO;
+        return idProducto;
     }
 
     public void setIdProducto(int idProducto) {
