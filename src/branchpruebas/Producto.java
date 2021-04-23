@@ -5,7 +5,7 @@ package branchpruebas;
  * @author gpamic
  */
 public class Producto {
-    private int IDProducto;
+    private int id;
     private String nombre;
     private Double precio;
     private String proveedor;
@@ -14,12 +14,12 @@ public class Producto {
     public Producto() {
     }
 
-    public int getIDProducto() {
-        return IDProducto;
+    public int getId() {
+        return id;
     }
 
-    public void setIDProducto(int IDProducto) {
-        this.IDProducto = IDProducto;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
